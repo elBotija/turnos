@@ -1,6 +1,7 @@
 import React, { Component } from 'react';
 import Header from './components/Header'
 import AgregarCita from './components/AgregarCita'
+import ListaCitas from './components/ListaCitas'
 
 class App extends Component {
 
@@ -18,6 +19,19 @@ class App extends Component {
         })
     }
 
+    borrarCita = (id) => {
+        // Obtener Copia del State
+        const citasActuales = [...this.state.citas]
+
+        // borrar elemento del State
+        const citas = citasActuales.filter(cita => cita.id !== id)
+
+        // actualizar el state
+        this.setState({
+            citas
+        })
+    }
+
   render() {
     return (
         <div className="container">
@@ -28,6 +42,12 @@ class App extends Component {
                 <div className='col col-md-6'>
                     <AgregarCita
                         crearCita={this.crearCita}
+                    />
+                </div>
+                <div className='col col-md-6'>
+                    <ListaCitas
+                        citas={this.state.citas}
+                        borrarCita={this.borrarCita}
                     />
                 </div>
             </div>
