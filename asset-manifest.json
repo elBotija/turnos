@@ -1,13 +1,13 @@
 {
-  "main.css": "/static/css/main.e2536098.chunk.css",
-  "main.js": "/static/js/main.8640d421.chunk.js",
-  "main.js.map": "/static/js/main.8640d421.chunk.js.map",
-  "static/js/1.968940ac.chunk.js": "/static/js/1.968940ac.chunk.js",
-  "static/js/1.968940ac.chunk.js.map": "/static/js/1.968940ac.chunk.js.map",
-  "runtime~main.js": "/static/js/runtime~main.229c360f.js",
-  "runtime~main.js.map": "/static/js/runtime~main.229c360f.js.map",
-  "static/css/main.e2536098.chunk.css.map": "/static/css/main.e2536098.chunk.css.map",
-  "index.html": "/index.html",
-  "precache-manifest.15ece31b0cc1916261ca5ce2e9eca34a.js": "/precache-manifest.15ece31b0cc1916261ca5ce2e9eca34a.js",
-  "service-worker.js": "/service-worker.js"
+  "main.css": "/turnos/static/css/main.e2536098.chunk.css",
+  "main.js": "/turnos/static/js/main.28a43875.chunk.js",
+  "main.js.map": "/turnos/static/js/main.28a43875.chunk.js.map",
+  "static/js/1.968940ac.chunk.js": "/turnos/static/js/1.968940ac.chunk.js",
+  "static/js/1.968940ac.chunk.js.map": "/turnos/static/js/1.968940ac.chunk.js.map",
+  "runtime~main.js": "/turnos/static/js/runtime~main.6d6d5224.js",
+  "runtime~main.js.map": "/turnos/static/js/runtime~main.6d6d5224.js.map",
+  "static/css/main.e2536098.chunk.css.map": "/turnos/static/css/main.e2536098.chunk.css.map",
+  "index.html": "/turnos/index.html",
+  "precache-manifest.bb4d0221e99424c90fd0c3868bf85072.js": "/turnos/precache-manifest.bb4d0221e99424c90fd0c3868bf85072.js",
+  "service-worker.js": "/turnos/service-worker.js"
 }
