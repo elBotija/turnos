@@ -2,7 +2,7 @@
   "name": "turnos",
   "version": "0.1.0",
   "private": true,
-  "hompage": "https://elBotija.github.io/turnos",
+  "homepage": "https://elbotija.github.io/turnos/",
   "dependencies": {
     "gh-pages": "^2.0.1",
     "prop-types": "^15.6.2",
