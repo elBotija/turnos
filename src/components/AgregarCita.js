@@ -74,11 +74,11 @@ class AgregarCita extends Component{
 
                        <div className="form-group row">
                             <label className="col-sm-4 col-lg-3 col-form-label">Fecha</label>
-                            <div className="col-sm-8 col-lg-3  mb-4 mb-lg-0">
+                            <div className="col-sm-8 col-lg-4  mb-4 mb-lg-0">
                                 <input type="date" ref={this.fechaRef} className="form-control" />
                             </div>
 
-                            <label className="col-sm-4 col-lg-3 col-form-label">Hora</label>
+                            <label className="col-sm-4 col-lg-2 col-form-label">Hora</label>
                             <div className="col-sm-8 col-lg-3">
                                 <input type="time" ref={this.horaRef} className="form-control" />
                             </div>
